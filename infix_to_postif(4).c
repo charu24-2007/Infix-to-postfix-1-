@@ -88,4 +88,9 @@ void infix_to_postfix(const char* Expr) {
     while (Top >= 0) {
         pop();
     }
+
 }
+
+Output:
+Infix Expression: x^y/(s*3)+2
+Postfix Expression: xy^s3*/2+
