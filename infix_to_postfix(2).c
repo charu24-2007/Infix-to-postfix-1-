@@ -89,4 +89,9 @@ void infix_to_postfix(const char* Expr) {
     while (Top >= 0) {
         pop();
     }
+
 }
+
+Output:
+Infix Expression: ((A+B)-C*(D/E))
+Postfix Expression: AB+CDE/*-
